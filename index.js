@@ -10,7 +10,7 @@ server.use(helmet());
 
 // endpoints here
 
-server.use('api/zoos', zoosRouter);
+server.use('/api/zoos', zoosRouter);
 
 const port = 3300;
 server.listen(port, function() {
